@@ -1,6 +1,8 @@
 #!/bin/sh
 
 ##########################################################
+### Pipeline for multiplexed MALBAC
+###
 ### Author: Shuhui Bian
 ### Date:   Mon Apr  1 13:23:25 CST 2019
 ### Email:  fondofbiology@163.com
@@ -159,4 +161,3 @@ $R_HOME/bin/Rscript $bin_dir/split_barcode_bed_CLS.R $sample $bin_dir
 cat merge_sampleInfo |while read line;do seq=`echo $line |awk '{print $2}' ` && sam=`echo $line |awk '{print $3}' ` && echo "zcat ${sample}_mapQ30_sort_rmdup.bed.gz |grep $seq | gzip > $sam.bed.gz";done > $sample.grep_work.sh
 
 perl $bin_dir/multi-process.pl -cpu 20 $sample.grep_work.sh
-
