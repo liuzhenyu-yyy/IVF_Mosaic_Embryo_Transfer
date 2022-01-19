@@ -6,6 +6,7 @@ We applied single-cell multiomics sequencing for seven 26 infants with blastula 
 
 Structure of the repo:
 
+```
 IVF_Mosac_Embryo_Transfer/
 ├── README.md
 ├── pipeline_TE_PGT_A (shell script to process CNV-Seq of TE biopsy)
@@ -22,4 +23,5 @@ IVF_Mosac_Embryo_Transfer/
 │   └── scRNA_UMI.sh
 ├── scDNA.R (Downstream analysis of single-cell CNV)
 └── scRNA.R (Downstream analysis of single-cell RNA-Seq)
+```
 
