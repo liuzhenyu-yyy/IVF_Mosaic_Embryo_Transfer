@@ -2,7 +2,7 @@
 
  Custom code for IVF project.
 
-We applied single-cell multiomics sequencing for seven 26 infants with blastula chromosomal mosaicism detected by TE biopsy.
+We applied single-cell multiomics sequencing for seven infants with blastula chromosomal mosaicism detected by TE biopsy.
 
 Structure of the repo:
 
@@ -23,5 +23,7 @@ IVF_Mosac_Embryo_Transfer/
 │   └── scRNA_UMI.sh
 ├── scDNA.R (Downstream analysis of single-cell CNV)
 └── scRNA.R (Downstream analysis of single-cell RNA-Seq)
+
+3 directories, 12 files
 ```
 
