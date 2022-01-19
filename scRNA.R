@@ -700,5 +700,3 @@ temp <- paste0(substr(temp,1,11),"_Cell_#",substr(temp,13,14))
 sample.info.merge$Cell_ID <- temp
 saveRDS(temp, "cell.rename.rds")
 write.csv(sample.info.merge,"Table S1. Summarize of Sequenced Cells.csv",row.names = F,col.names = T,quote = F)
-
-
