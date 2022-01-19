@@ -4,7 +4,7 @@
 
 We applied single-cell multiomics sequencing for seven infants with blastula chromosomal mosaicism detected by TE biopsy.
 
-Structure of the repo:
+Structure of the  Repositories:
 
 ```
 IVF_Mosac_Embryo_Transfer/
