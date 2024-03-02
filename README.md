@@ -4,6 +4,8 @@
 
 We applied single-cell multiomics sequencing for seven infants with blastula chromosomal mosaicism detected by TE biopsy.
 
+![Schema](./Schema.jpg)
+
 For more information, please check our [publication](https://www.sciencedirect.com/science/article/pii/S1672022922000882) at Genomics, Proteomics & Bioinformatics:
 > Gao Y, Zhang J, Liu Z, et al. Single-cell Sequencing Reveals Clearance of Blastula Chromosomal Mosaicism in In Vitro Fertilization Babies [published online ahead of print, 2022 Aug 6]. *Genomics Proteomics Bioinformatics*. 2022;S1672-0229(22)00088-2. doi:10.1016/j.gpb.2022.07.004
 
